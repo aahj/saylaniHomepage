@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ---------breadcrumb--------------- */
+
+#breadcrumb {
+    background-color: rgb(108, 108, 248) !important;
+    padding: 10px 0;
+}
+
+#breadcrumb p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    transform: translateY(-10px);
+    color: #ffffff;
+}
+
+.fa-facebook {
+    background: rgb(92, 141, 248);
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #4d30f0;
+    color: white;
+}
+
+.fa-snapchat {
+    background: #eff308;
+    color: white;
+}
+
+/* ------------nav bar---------------- */
+
+#nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background: #f8f9fa;
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 55px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: black !important;
+    font-weight: 400;
+    float: center;
+    text-align: center;
+}
+
+.fa-bars {
+    color: black;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* ---------slider--------------- */
+
+#slider {
+    padding-top: 10px;
+}
+
+/* ---------marquee------------- */
+
+#marquee {
+    margin: 15px 70px;
+    background-color: rgb(75, 75, 250);
+    color: #fff;
+}
+
+/* ---------intro------------- */
+
+#intro {
+    padding-top: 50px;
+    background: #f8f9fa;
+    padding-bottom: 50px;
+}
+
+#intro h1 {
+    background-image: linear-gradient(to left, #0000cc, #00cc44);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+#intro p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.title {
+    padding-bottom: 10px;
+}
+
+.title::before {
+    content: '';
+    background: #0000cc;
+    height: 5px;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    background: #0000cc;
+    height: 10px;
+    width: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+/* ---------count------------- */
+#count{
+    padding:70px 0;
+    background-color:#0000cc ;
+    color: #fff;
+}
+#count h1{
+    font-family: 'Bradley Hand ITC',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+}
+.green{
+    color: greenyellow;
+    font-weight: 800;    
+}
+.fa-cutlery{
+    font-size: 60px !important;
+}
+.fa-graduation-cap{
+    font-size: 60px !important;
+}
+.fa-users{
+    font-size: 60px !important;
+}
+.fa-stethoscope{
+    font-size: 60px !important;
+}
+
+
+
+
+
+
+
+
+
