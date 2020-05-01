@@ -26,37 +26,12 @@ body {
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
-    border-radius: 50%;
+    color: black;
 }
 
 .fa:hover {
     transform: translateY(-10px);
-    color: #ffffff;
-}
-
-.fa-facebook {
-    background: rgb(92, 141, 248);
-    color: white;
-}
-
-.fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #4d30f0;
-    color: white;
-}
-
-.fa-snapchat {
-    background: #eff308;
-    color: white;
+    color: black;
 }
 
 /* ------------nav bar---------------- */
@@ -117,15 +92,7 @@ body {
     padding-top: 50px;
     background: #f8f9fa;
     padding-bottom: 50px;
-}
-
-#intro h1 {
-    background-image: linear-gradient(to left, #0000cc, #00cc44);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+    margin: 15px 15px;
 }
 
 #intro p {
@@ -135,6 +102,13 @@ body {
 
 .title {
     padding-bottom: 10px;
+    background-image: linear-gradient(to left, #0000cc, #00cc44);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title::before {
@@ -159,38 +133,165 @@ body {
     display: block;
     transform: translateY(8px);
 }
+
 /* ---------count------------- */
-#count{
-    padding:70px 0;
-    background-color:#0000cc ;
+
+#count {
+    padding: 70px 0;
+    background-color: #0000cc;
     color: #fff;
 }
-#count h1{
-    font-family: 'Bradley Hand ITC',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+#count h1 {
+    font-family: 'Bradley Hand ITC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 600;
 }
-.green{
+
+.green {
     color: greenyellow;
-    font-weight: 800;    
+    font-weight: 800;
 }
-.fa-cutlery{
-    font-size: 60px !important;
-}
-.fa-graduation-cap{
-    font-size: 60px !important;
-}
-.fa-users{
-    font-size: 60px !important;
-}
-.fa-stethoscope{
+
+.fa-cutlery {
     font-size: 60px !important;
 }
 
+.fa-graduation-cap {
+    font-size: 60px !important;
+}
 
+.fa-users {
+    font-size: 60px !important;
+}
 
+.fa-stethoscope {
+    font-size: 60px !important;
+}
 
+/* ---------services------------- */
 
+#services {
+    padding: 50px 0;
+    background: #f8f9fa;
+}
 
+#services p {
+    font-weight: 500;
+    font-size: 1.1em;
+    color: blue;
+}
 
+#services .fa-medkit {
+    font-size: 50px !important;
+    color: orange;
+}
 
+#services .fa-money {
+    font-size: 50px !important;
+    color: gray;
+}
 
+#services .fa-male {
+    font-size: 50px !important;
+    color: greenyellow;
+}
+
+#services .fa-cutlery {
+    font-size: 50px !important;
+    color: black;
+}
+
+#services .fa-tint {
+    font-size: 50px !important;
+    color: blue;
+}
+
+#services .fa-graduation-cap {
+    font-size: 50px !important;
+    color: rgb(231, 140, 140);
+}
+
+#space {
+    position: relative;
+    width: 100%;
+    padding: 30px 30px !important;
+}
+
+/* #icon_design{
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;   
+} */
+
+/* ---------mission------------- */
+#mission{
+    padding: 60px 0;
+    background-color: #fff; 
+    margin: 15px 15px;
+}
+#mission hr{
+    width: 100px;
+    background-color: black;
+}
+#mission-shade{
+    background-color:  #f8f9fa;
+    position: relative;
+    width: 100%;
+    padding: 15px 40px !important;
+    margin: 10px 0px !important;
+}
+#mission-shade p{
+    color: rgb(62, 62, 230);
+    font-weight: 600;
+}
+/* ---------gallery------------- */
+#gallery{
+    padding:40px 0;
+    background-color:#f8f9fa;
+    margin: 15px 15px;
+}
+
+.journey {
+    position: relative;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .journey:hover .image {
+    opacity: 0.3;
+  }
+  
+  .journey:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:   #404040 ;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
