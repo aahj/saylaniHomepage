@@ -154,18 +154,22 @@ body {
 
 .fa-cutlery {
     font-size: 60px !important;
+    color: #fff;
 }
 
 .fa-graduation-cap {
     font-size: 60px !important;
+    color: #fff;
 }
 
 .fa-users {
     font-size: 60px !important;
+    color: #fff;
 }
 
 .fa-stethoscope {
     font-size: 60px !important;
+    color: #fff;
 }
 
 /* ---------services------------- */
@@ -216,15 +220,6 @@ body {
     width: 100%;
     padding: 30px 30px !important;
 }
-
-/* #icon_design{
-    padding: 30px;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 100%;   
-} */
 
 /* ---------mission------------- */
 #mission{
@@ -294,4 +289,67 @@ body {
     font-size: 16px;
     padding: 16px 32px;
   }
-  
+  /*----------------footer section-------------------*/
+
+#footer {    
+    background-color:  #262626;
+    color: #ffffff;
+    padding: 0 25px;
+}
+
+.footer-box {
+    padding: 20px;
+}
+ #footer ul{
+    padding: 15px 15px;
+    list-style-type: none;
+    color: #fff;
+    font-family: 'Comic Sans MS', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#footer ul li{
+    display: block;
+    font-size: 0.9em;    
+}
+#footer .fa-phone{
+    color: green;
+}
+#footer .fa-globe{
+    color: green;
+}
+#footer .fa-envelope{
+    color:green;
+}
+#footer hr{
+    width: 100px;
+    background-color: green;
+}
+#footer .social-icons .fa{
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: #fff;
+}
+/*----------------copyright section-------------------*/
+#copyright{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    padding-left: 15px;
+    background-color: rgb(108, 108, 248) ;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+}
+/*----------------media query-------------------*/
+@media only screen and (max-width: 600px) {
+    #services h1{
+        font-size: 1.6em !important;
+    }
+
+    #services .title::after {        
+        transform: translateY(25px);
+    }
+    
+}
